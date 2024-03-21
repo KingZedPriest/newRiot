@@ -2,27 +2,20 @@
 
 
 
-## installation
+## Start
 
 ```
-npm i newriot
+npm start
 ```
 
-## Usage
+## Test
 
-```riot
-<app>
-  <my-component/>
+```
+npm test
+```
 
-  <script>
-    import MyComponent from 'newriot'
+## Build
 
-    export default {
-      components: {
-        MyComponent
-      }
-    }
-  </script>
-</app>
-
+```
+npm run build
 ```
